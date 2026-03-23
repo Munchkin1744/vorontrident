@@ -62,8 +62,8 @@
       },
       "extra_sensors": {},
       "fans": {
-        "chamber": "",
-        "exhaust": "",
+        "chamber": "fan_generic nevermore",
+        "exhaust": "fan_generic exhaust_fan",
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
