@@ -100,7 +100,7 @@
             "temperature_fan controller_fan_1",
             "temperature_fan controller_fan_2"
           ],
-          "timestamp": "2026-03-23T17:29:30Z"
+          "timestamp": "2026-03-23T17:29:49Z"
         },
         "optional": []
       },
@@ -134,7 +134,7 @@
         "strip": ""
       },
       "moonraker_api_key": false,
-      "moonraker_host": "127.0.0.1",
+      "moonraker_host": "192.168.0.168",
       "moonraker_port": 7125,
       "panel_widgets": {
         "home": [
