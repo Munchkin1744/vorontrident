@@ -68,10 +68,25 @@
         "part": "fan"
       },
       "filament_sensors": {
-        "sensors": null
+        "master_enabled": true,
+        "sensors": [
+          {
+            "enabled": true,
+            "klipper_name": "filament_switch_sensor RUNOUT",
+            "role": "runout",
+            "type": "switch"
+          }
+        ]
       },
       "hardware": {
-        "expected": [],
+        "expected": [
+          "heater_bed",
+          "extruder",
+          "fan",
+          "heater_fan hotend_fan",
+          "led strip",
+          "filament_switch_sensor RUNOUT"
+        ],
         "last_snapshot": {
           "fans": [
             "fan",
@@ -100,7 +115,7 @@
             "temperature_fan controller_fan_1",
             "temperature_fan controller_fan_2"
           ],
-          "timestamp": "2026-03-23T17:30:24Z"
+          "timestamp": "2026-03-23T17:30:57Z"
         },
         "optional": []
       },
@@ -125,13 +140,10 @@
         "macro_devices": [],
         "selected": [],
         "selected_strips": [
-          "neopixel sb_leds",
-          "led caselight",
-          "led strip",
-          "neopixel bar_leds"
+          "led strip"
         ],
         "startup_brightness": 80,
-        "strip": ""
+        "strip": "led strip"
       },
       "moonraker_api_key": false,
       "moonraker_host": "192.168.0.168",
@@ -368,7 +380,8 @@
         "bed": "heater_bed",
         "hotend": "extruder"
       },
-      "type": "Voron Trident"
+      "type": "Voron Trident",
+      "wizard_completed": true
     },
     "show_printer_switcher": false
   },
@@ -381,5 +394,6 @@
         "rows": 4
       }
     }
-  }
+  },
+  "wizard_completed": true
 }
