@@ -368,7 +368,7 @@
         "bed": "heater_bed",
         "hotend": "extruder"
       },
-      "type": "Snapmaker U1"
+      "type": "Voron Trident"
     },
     "show_printer_switcher": false
   },
