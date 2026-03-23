@@ -67,6 +67,21 @@
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
+      "filament": {
+        "external_spool": {
+          "assigned": true,
+          "bed_temp": 100,
+          "brand": "eSun",
+          "color_rgb": 16377632,
+          "material": "ABS",
+          "nozzle_temp_max": 0,
+          "nozzle_temp_min": 0,
+          "remaining_weight_g": 1000.0,
+          "spool_name": "eSun ABS",
+          "spoolman_id": 2,
+          "total_weight_g": 1000.0
+        }
+      },
       "filament_sensors": {
         "master_enabled": true,
         "sensors": [
