@@ -30,7 +30,15 @@
     "touch_device": ""
   },
   "language": "en",
+  "led": {
+    "selected_strips": null
+  },
   "log_path": "/tmp/helixscreen.log",
+  "printer": {
+    "leds": {
+      "startup_brightness": null
+    }
+  },
   "printers": {
     "default": {
       "default_macros": {
@@ -59,9 +67,41 @@
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
+      "filament_sensors": {
+        "sensors": null
+      },
       "hardware": {
         "expected": [],
-        "last_snapshot": {},
+        "last_snapshot": {
+          "fans": [
+            "fan",
+            "heater_fan hotend_fan",
+            "fan_generic nevermore",
+            "temperature_fan controller_fan_1",
+            "temperature_fan controller_fan_2",
+            "fan_generic exhaust_fan"
+          ],
+          "filament_sensors": [
+            "filament_switch_sensor RUNOUT"
+          ],
+          "heaters": [
+            "heater_bed",
+            "extruder"
+          ],
+          "leds": [
+            "neopixel sb_leds",
+            "led caselight",
+            "led strip",
+            "neopixel bar_leds"
+          ],
+          "sensors": [
+            "temperature_sensor MCU",
+            "temperature_sensor SoC",
+            "temperature_fan controller_fan_1",
+            "temperature_fan controller_fan_2"
+          ],
+          "timestamp": "2026-03-23T17:29:30Z"
+        },
         "optional": []
       },
       "heaters": {
@@ -69,7 +109,28 @@
         "hotend": "extruder"
       },
       "leds": {
+        "color_presets": [
+          "#FFFFFF",
+          "#FFD700",
+          "#FF6B35",
+          "#4FC3F7",
+          "#FF4444",
+          "#66BB6A",
+          "#9C27B0",
+          "#00BCD4"
+        ],
+        "last_brightness": 100,
+        "last_color": "#FFFFFF",
+        "led_on_at_start": false,
+        "macro_devices": [],
         "selected": [],
+        "selected_strips": [
+          "neopixel sb_leds",
+          "led caselight",
+          "led strip",
+          "neopixel bar_leds"
+        ],
+        "startup_brightness": 80,
         "strip": ""
       },
       "moonraker_api_key": false,
@@ -150,11 +211,11 @@
             "rowspan": 1
           },
           {
-            "col": -1,
+            "col": 5,
             "colspan": 1,
             "enabled": true,
             "id": "led",
-            "row": -1,
+            "row": 2,
             "rowspan": 1
           },
           {
@@ -206,11 +267,11 @@
             "rowspan": 1
           },
           {
-            "col": -1,
+            "col": 2,
             "colspan": 1,
             "enabled": true,
             "id": "filament",
-            "row": -1,
+            "row": 3,
             "rowspan": 1
           },
           {
@@ -306,7 +367,8 @@
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
-      }
+      },
+      "type": "Snapmaker U1"
     },
     "show_printer_switcher": false
   },
