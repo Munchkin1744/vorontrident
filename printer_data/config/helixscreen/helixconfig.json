@@ -411,5 +411,8 @@
       }
     }
   },
+  "update": {
+    "dismissed_version": "0.98.12"
+  },
   "wizard_completed": true
 }
