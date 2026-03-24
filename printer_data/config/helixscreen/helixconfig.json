@@ -71,16 +71,16 @@
       "filament": {
         "external_spool": {
           "assigned": true,
-          "bed_temp": 100,
-          "brand": "eSun",
-          "color_rgb": 16377632,
-          "material": "ABS",
+          "bed_temp": 90,
+          "brand": "Extrudr",
+          "color_rgb": 13579382,
+          "material": "PETG",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 1000.0,
-          "spool_name": "eSun ABS",
-          "spoolman_id": 2,
-          "total_weight_g": 1000.0
+          "remaining_weight_g": 1100.0,
+          "spool_name": "Extrudr PETG",
+          "spoolman_id": 3,
+          "total_weight_g": 1100.0
         }
       },
       "filament_sensors": {
