@@ -424,7 +424,7 @@
       "type": "Voron Trident",
       "wizard_completed": true
     },
-    "show_printer_switcher": false
+    "show_printer_switcher": true
   },
   "theme": {
     "preset": 0
