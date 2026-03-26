@@ -35,6 +35,17 @@
     "selected_strips": null
   },
   "log_path": "/tmp/helixscreen.log",
+  "print_start_history": {
+    "entries": [
+      {
+        "phases": {
+          "3": 80
+        },
+        "timestamp": 1774546381,
+        "total": 80
+      }
+    ]
+  },
   "printer": {
     "leds": {
       "startup_brightness": null
@@ -131,7 +142,7 @@
             "temperature_fan controller_fan_1",
             "temperature_fan controller_fan_2"
           ],
-          "timestamp": "2026-03-26T17:30:43Z"
+          "timestamp": "2026-03-26T19:26:29Z"
         },
         "optional": []
       },
