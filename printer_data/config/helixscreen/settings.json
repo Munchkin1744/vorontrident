@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "config_version": 8,
+  "config_version": 9,
   "dark_mode": true,
   "display": {
     "animations_enabled": false,
@@ -35,6 +35,9 @@
     "selected_strips": null
   },
   "log_path": "/tmp/helixscreen.log",
+  "motion": {
+    "jog_mode": 1
+  },
   "print_start_history": {
     "entries": [
       {
@@ -43,6 +46,13 @@
         },
         "timestamp": 1774546381,
         "total": 80
+      },
+      {
+        "phases": {
+          "3": 85
+        },
+        "timestamp": 1774591301,
+        "total": 85
       }
     ]
   },
@@ -248,11 +258,11 @@
                   "rowspan": 1
                 },
                 {
-                  "col": -1,
+                  "col": 3,
                   "colspan": 1,
                   "enabled": true,
                   "id": "ams",
-                  "row": -1,
+                  "row": 2,
                   "rowspan": 1
                 },
                 {
@@ -360,11 +370,11 @@
                   "rowspan": 2
                 },
                 {
-                  "col": -1,
+                  "col": 4,
                   "colspan": 1,
                   "enabled": true,
                   "id": "clog_detection",
-                  "row": -1,
+                  "row": 2,
                   "rowspan": 1
                 },
                 {
@@ -422,6 +432,14 @@
                   "id": "nozzle_temps",
                   "row": -1,
                   "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "active_spool",
+                  "row": -1,
+                  "rowspan": 1
                 }
               ]
             }
@@ -433,7 +451,7 @@
         "hotend": "extruder"
       },
       "type": "Voron Trident",
-      "wizard_completed": true
+      "wizard_completed": false
     },
     "show_printer_switcher": false
   },
@@ -451,5 +469,5 @@
   "update": {
     "dismissed_version": "0.99.4"
   },
-  "wizard_completed": true
+  "wizard_completed": false
 }
