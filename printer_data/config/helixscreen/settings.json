@@ -446,6 +446,7 @@
           ]
         }
       },
+      "printer_name": "Trident",
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
