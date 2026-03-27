@@ -152,7 +152,7 @@
             "temperature_fan controller_fan_1",
             "temperature_fan controller_fan_2"
           ],
-          "timestamp": "2026-03-27T16:11:52Z"
+          "timestamp": "2026-03-27T16:12:34Z"
         },
         "optional": []
       },
@@ -452,7 +452,7 @@
         "hotend": "extruder"
       },
       "type": "Voron Trident",
-      "wizard_completed": false
+      "wizard_completed": true
     },
     "show_printer_switcher": false
   },
@@ -470,5 +470,5 @@
   "update": {
     "dismissed_version": "0.99.4"
   },
-  "wizard_completed": false
+  "wizard_completed": true
 }
