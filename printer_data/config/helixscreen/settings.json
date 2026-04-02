@@ -44,13 +44,6 @@
         "phases": {
           "3": 80
         },
-        "timestamp": 1774768394,
-        "total": 80
-      },
-      {
-        "phases": {
-          "3": 80
-        },
         "timestamp": 1774935067,
         "total": 80
       },
@@ -60,6 +53,13 @@
         },
         "timestamp": 1775018029,
         "total": 85
+      },
+      {
+        "phases": {
+          "3": 80
+        },
+        "timestamp": 1775109526,
+        "total": 80
       }
     ]
   },
