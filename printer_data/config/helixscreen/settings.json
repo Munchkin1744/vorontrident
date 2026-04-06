@@ -42,13 +42,6 @@
     "entries": [
       {
         "phases": {
-          "3": 80
-        },
-        "timestamp": 1774935067,
-        "total": 80
-      },
-      {
-        "phases": {
           "3": 85
         },
         "timestamp": 1775018029,
@@ -60,6 +53,13 @@
         },
         "timestamp": 1775109526,
         "total": 80
+      },
+      {
+        "phases": {
+          "3": 85
+        },
+        "timestamp": 1775457434,
+        "total": 85
       }
     ]
   },
@@ -105,7 +105,7 @@
           "material": "PETG",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 221.6836395263672,
+          "remaining_weight_g": 40.51670455932617,
           "spool_name": "Extrudr PETG - Magenta",
           "spoolman_id": 3,
           "total_weight_g": 1100.0
