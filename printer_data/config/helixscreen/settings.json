@@ -96,7 +96,21 @@
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
-      "filament": {},
+      "filament": {
+        "external_spool": {
+          "assigned": true,
+          "bed_temp": 90,
+          "brand": "Extrudr",
+          "color_rgb": 13579382,
+          "material": "PETG",
+          "nozzle_temp_max": 0,
+          "nozzle_temp_min": 0,
+          "remaining_weight_g": 221.6836395263672,
+          "spool_name": "Extrudr PETG - Magenta",
+          "spoolman_id": 3,
+          "total_weight_g": 1100.0
+        }
+      },
       "filament_sensors": {
         "master_enabled": true,
         "sensors": [
@@ -145,7 +159,7 @@
             "temperature_fan controller_fan_1",
             "temperature_fan controller_fan_2"
           ],
-          "timestamp": "2026-04-05T16:35:30Z"
+          "timestamp": "2026-04-06T06:31:47Z"
         },
         "optional": []
       },
