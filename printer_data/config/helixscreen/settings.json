@@ -99,16 +99,16 @@
       "filament": {
         "external_spool": {
           "assigned": true,
-          "bed_temp": 0,
-          "brand": "Recreus",
-          "color_rgb": 16187136,
-          "material": "Flexible",
+          "bed_temp": 90,
+          "brand": "Extrudr",
+          "color_rgb": 13579382,
+          "material": "PETG",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 469.1777648925781,
-          "spool_name": "Recreus Flexible - Yellow Flexible",
-          "spoolman_id": 4,
-          "total_weight_g": 500.0
+          "remaining_weight_g": 40.51670455932617,
+          "spool_name": "Extrudr PETG - Magenta",
+          "spoolman_id": 3,
+          "total_weight_g": 1100.0
         }
       },
       "filament_sensors": {
