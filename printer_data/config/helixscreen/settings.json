@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "config_version": 10,
+  "config_version": 11,
   "dark_mode": true,
   "display": {
     "animations_enabled": false,
@@ -41,23 +41,17 @@
   "print_start_history": {
     "entries": [
       {
-        "phases": {
-          "3": 85
-        },
+        "phases": {},
         "timestamp": 1775018029,
         "total": 85
       },
       {
-        "phases": {
-          "3": 80
-        },
+        "phases": {},
         "timestamp": 1775109526,
         "total": 80
       },
       {
-        "phases": {
-          "3": 85
-        },
+        "phases": {},
         "timestamp": 1775457434,
         "total": 85
       }
